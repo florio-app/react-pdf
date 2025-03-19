@@ -43,6 +43,7 @@ declare namespace ReactPDF {
     pdfVersion?: PDFVersion;
     pageMode?: PageMode;
     pageLayout?: PageLayout;
+    userPassword?: string;
     onRender?: (props: OnRenderProps) => any;
   }
 

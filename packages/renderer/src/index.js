@@ -49,6 +49,7 @@ const pdf = (initialValue) => {
       creator = 'react-pdf',
       producer = 'react-pdf',
       creationDate = new Date(),
+      userPassword,
       modificationDate,
     } = props;
 
@@ -68,6 +69,7 @@ const pdf = (initialValue) => {
         CreationDate: creationDate,
         ModificationDate: modificationDate,
       }),
+      userPassword,
     });
 
     if (pageLayout) {
