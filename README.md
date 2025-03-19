@@ -1,3 +1,7 @@
+⚠️ This is a Fork that adds support for password protected PDFs. ⚠️
+
+Based on this PR: https://github.com/diegomura/react-pdf/pull/2696
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
   <p align="center">React renderer for creating PDF files on the browser and server<p>
